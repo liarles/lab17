@@ -19,7 +19,7 @@ void showVector(vector<int> &x){
 	}
 }
 
-int dotProduct(const vector<int>& x, const vector<int>& y){
+int dotProduct(vector<int>& x, vector<int>& y){
 	int sum = 0;
 	for(unsigned int i = 0; i < x.size(); i++) sum += x[i]*y[i];	
 	return sum;
